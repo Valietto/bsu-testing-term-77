@@ -40,7 +40,7 @@ public class Tests
     [TestCase("  2.1    +   2.9 ", 5)]
     [TestCase("7.0 - 2", 5)]
     [TestCase("7 - 2.0", 5)]
-    [TestCase("7.0 - 2.0", 5)]
+    [TestCase("6.0 - 2.0", 4)]
     [TestCase(" - 2.0 + 7.0", 5)]
     [TestCase(" -2.0 + 7.000", 5)]
     [Test, Category("Positive scenario")]
